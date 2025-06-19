@@ -1,0 +1,4 @@
+1.win+r
+2.\\ machine IP -- enter
+3. asking for username nd pass
+4. folders 

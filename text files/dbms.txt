@@ -1,0 +1,2 @@
+select username from all_users; -- to show all existing users
+select table_name from user_tables; -- to show all existing table

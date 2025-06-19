@@ -1,0 +1,4 @@
+git add kuchh.c  
+PS D:\c files> git add .
+PS D:\c files> git commit -m "added kuchh.c file" or git commit -m "Updated multiple files"
+PS D:\c files> git push

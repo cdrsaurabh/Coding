@@ -1,0 +1,12 @@
+GET:
+1. get is the default method.
+2. it shows the value in url
+3. it is not seccure method
+4. small amount of data can be sent throught get method
+
+POST:
+1. post is not the default method.
+2. it does not show the value in the url
+3. it is secure method
+4. large amount of data can be sent through post method.
+<
