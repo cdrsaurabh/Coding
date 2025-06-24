@@ -17,7 +17,7 @@ def facto(y):
     for i in range(y,1,-1):
         fact=fact*i
     return fact    
-n=int(input("Enter a no."))
+n=int(input("Enter a no. for factorial:"))
 print("The factorial of",n,"is",facto(n))
 #fn to convert usd to inr
 #1usd = 85.79inr

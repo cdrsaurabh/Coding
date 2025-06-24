@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.left-side {
+    flex: 1;
+    padding: 40px 20px;
+}
+
+.left-side div {
+    background-color: orange;
+    margin-bottom: 10px;
+    padding: 20px;
+    width: 200px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.right-side {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 40px 40px 0 0;
+}
+
+.box {
+    background-color: grey;
+    border: 3px solid black;
+    padding: 30px 30px 20px 30px;
+    border-radius: 8px;
+    min-width: 350px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    background-color: grey;
+    text-align: center;
+    padding: 8px;
+}
+
+th {
+    background: #eee;
+    padding: 10px;
+}
+
+.center-btn {
+    text-align: center;
+    margin-top: 15px;
+}

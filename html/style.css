@@ -1,0 +1,33 @@
+body {
+        min-height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+table,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            }
+td{
+            background-color: grey;
+            text-align: center;
+            }
+.box{
+    background-color:grey;
+    border: 3px solid red;
+
+}
+table{
+    margin-top: 150px;
+}
+div{
+    background-color: orange;
+}
+.center-btn{
+    text-align: center;
+    margin-top: 10px;
+}
+.box{
+        background-color: grey;
+    border: 3px solid black;
+}
