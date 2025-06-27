@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Hello, World!</title>
+  
+  <style>
+  body:before {
+  content: "";
+  position: absolute;
+  inset: 40% -60% 0 -60%;
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+nav {
+  position: relative;
+  z-index: 1;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+nav:before .active-element {
+  transform: rotateY(180deg);
+}
+
+  
+  </style>
+</head>
+<body>
+  <h1>
+    Hello, World!
+  </h1>
+  <nav><ul>
+    <li class="active">
+      <button>Home</button>
+    </li>
+    <li>
+      <button>Blogs</button>
+    </li>
+    <li>
+      <button>Services</button>
+    </li>
+    <li>
+      <button>Contact</button>
+    </li>
+    <li>
+      <button>About</button>
+    </li>
+  </ul></nav>
+</body>
+</html>
