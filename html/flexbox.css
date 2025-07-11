@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  align-content: center;
+}
+body{
+  display: flex;
+  justify-content: center;
+}
+.container{
+  height:300px;
+  width: 300px;
+  border: 2px solid black;
+  display: flex;
+  /* flex-direction: ; */
+}
+#box1{
+  border: 2px solid black;
+  width:50px;
+}
+#box2{
+  border: 2px solid black;
+  width:50px;
+}
+#box3{
+  border: 2px solid black;
+  width:50px;
+}
+#box4{
+  border: 2px solid black;
+  width:50px;
+}
+#box5{
+  border: 2px solid black;
+  width:50px;
+}

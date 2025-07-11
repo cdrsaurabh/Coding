@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+#container{
+    border:1px solid black;
+    height: 250px;
+    width: 650px;
+    display: flex;
+}
+#box1{
+    border:1px solid black;
+    background-color: aquamarine;
+    height:50px;
+    width: 80px;
+}
+#box2{
+    border:1px solid black;
+    background-color: orangered;
+    height:50px;
+    width: 80px;
+}
+#box3{
+    border:1px solid black;
+    background-color: green;
+    height:50px;
+    width: 80px;
+}
+#box4{
+    border:1px solid black;
+    background-color: grey;
+    height:50px;
+    width: 80px;
+}
+#box5{
+    border:1px solid black;
+    background-color: magenta;
+    height:50px;
+    width: 80px;    
+}
