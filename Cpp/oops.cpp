@@ -46,6 +46,9 @@ int main(){
     s.id;
     s.name;
     s.course;
+    while true{
+    cout<<"Enter the id"<<endl;
     cin>>s.id;
+    }
     return 0;
 }
