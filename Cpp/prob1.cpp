@@ -3,16 +3,14 @@
 using namespace std;
 
 int main() {
-    int num,i;
-    cout<<"Enter a number"<<endl;
-    cin>>num;
-    string digit = string(num);
-    cout<<digit<<endl;
-    cout<<"your number is "<<num<<endl;
-    int dig[10];
-    while(num>0){
-        for(i=0;i<=)
-        dig
+    int a;
+    cout<<"Ent er something"<<endl;
+    cin>>a;
+    if (cin>>a) == 1
+    cout<<"ok"<<endl;
+    else{
+        cout<<"not ok"<<endl;
     }
+
     return 0;
 }
