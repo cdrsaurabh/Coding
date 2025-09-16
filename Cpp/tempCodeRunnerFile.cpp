@@ -1,10 +1,6 @@
-#include<iostream>
-#include<string>
-using namespace std;
-
-int main() {
-    int num,i;
-    cout<<"Enter a number"<<endl;
-    cin>>num;
-    string digit = num;
-    cout<<digit<<endl;
+vector <int> v(3,100);
+vector <int> v1(2,200);
+cout<<"v's element are: "<<endl;
+printVector(v);
+cout<<"v1's element are: "<<endl;
+printVector(v1);
